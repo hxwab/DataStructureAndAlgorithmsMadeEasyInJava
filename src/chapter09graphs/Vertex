@@ -1,0 +1,13 @@
+package com.Mertix;
+
+public class Vertex {
+	
+	public char lable; //½Úµã
+	public boolean wasVisited;//ÊÇ·ñ·ÃÎÊ¹ýµÄ±êÖ¾
+	
+	public Vertex(char lable) {
+		super();
+		this.lable = lable;
+		this.wasVisited = false;
+	}
+}
